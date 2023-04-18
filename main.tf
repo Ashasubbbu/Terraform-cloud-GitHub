@@ -14,6 +14,6 @@ provider "aws" {
 	}
 
 resource "aws_instance" "ashafra" {
-	ami = "06e46074ae430fba6" 
+	ami ="06e46074ae430fba6" 
 	instance_type = "t2.micro"
 }
