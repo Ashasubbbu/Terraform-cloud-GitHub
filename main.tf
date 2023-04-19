@@ -13,7 +13,7 @@ provider "aws" {
         #profile = "default"
 	}
 
-resource "aws_instance" "ashafra" {
+resource "aws_instance" "asha-fra" {
 	ami ="06e46074ae430fba6" 
 	instance_type = "t2.micro"
 }
